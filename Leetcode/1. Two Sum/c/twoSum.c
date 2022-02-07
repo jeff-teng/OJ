@@ -42,7 +42,7 @@ int *twoSum(int *nums, int numsSize, int target, int *returnSize) {
             return result;
         }
 
-        // 没有找到结果，加入 hash table
+        // 没有找到结果，加入 hash 表
         element = malloc(sizeof(HashableElement));
         element->index = i;
         element->data = nums[i];
