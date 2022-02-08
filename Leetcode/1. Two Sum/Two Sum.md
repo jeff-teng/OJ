@@ -111,7 +111,7 @@ public:
 #endif
 ```
 ### Go
-直接使用 `unordered_map` 来实现。
+直接使用 `map` 来实现。
 
 ```go
 package main
