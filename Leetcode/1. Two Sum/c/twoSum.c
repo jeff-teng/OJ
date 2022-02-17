@@ -1,4 +1,5 @@
 #ifdef OJ_LOCAL
+#include "twoSum.h"
 #include "uthash.h" // http://troydhanson.github.io/uthash/
 #endif
 
