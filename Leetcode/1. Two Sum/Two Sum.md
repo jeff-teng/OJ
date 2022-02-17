@@ -19,6 +19,7 @@ C 标准库中没有 hash 表的实现，LeetCode 上默认包含了 `uthash.h`�
 
 ```c
 #ifdef OJ_LOCAL
+#include "twoSum.h"
 #include "uthash.h" // http://troydhanson.github.io/uthash/
 #endif
 
